@@ -1,9 +1,12 @@
 // QurbaniBookingApp.jsx
-import React, { useState } from 'react';
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import axios from 'axios';
+import React from 'react';
+import QurbaniBookingApp from './qurbani_booking_app';
 
+function App() {
+  return <QurbaniBookingApp />;
+}
+
+export default App;
 const animals = ["Cow", "Goat", "Sheep"];
 const days = ["Day 1", "Day 2", "Day 3"];
 const timeSlots = ["1:00 PM", "4:00 PM", "7:00 PM"];
